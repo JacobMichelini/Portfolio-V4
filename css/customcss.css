@@ -2,7 +2,7 @@
 
 .jcontainer {
   width: 90%;
-  max-width: 9999px;
+  max-width: 9999999px;
 }
 
 a {
@@ -82,6 +82,7 @@ p {
 /*TOPBAR*/
 
 .fixed {
+  width: 100vw;
   position: fixed;
   z-index: 100;
   /*border-bottom: 1px solid white;*/
@@ -132,6 +133,7 @@ h5 {
 
 .caption {
   padding: 1rem;
+  width: 100%;
 }
 
 .visit {
@@ -147,11 +149,12 @@ h5 {
 /*GALLERY*/
 
 .gallery {
-    width: 100%;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: .75rem;
+    max-height: 100%;
 }
 
 .fullheight {
